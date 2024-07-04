@@ -12,11 +12,13 @@
 }
 
 body {
+    font-family: var(--font1);
+
     background-image: url(img/Fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-    font-family: var(--font1)
+    background-attachment: fixed;
+    
 }
 
 a {
@@ -43,10 +45,14 @@ header > h1 {
     height: 10px;
 }
 
+main {
+   
+}
+
 
 a.link1{
     margin-left: 60px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
     font-size: 18px;
@@ -59,10 +65,15 @@ header {
 
 nav {
     position: relative;
-    left: 60%;
-    width: 600px;
-
+    left: 70%;
+    width: 380px;
     padding: 10px;
+
+    font-size: 15px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+
+
 }
 
 section > h1 {
@@ -88,8 +99,19 @@ div > a {
 }
 
 article {
-    background-color: blue;
+    background-color: black;
+    height:45vh;
 }
+
+article > p {
+    width: 300px;
+    height: 200px;
+    color: white;
+
+    padding: 10px;
+}
+
+
 
 
 
