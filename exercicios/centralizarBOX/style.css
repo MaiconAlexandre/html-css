@@ -13,6 +13,12 @@ section {
     height: 80vh;
 }
 
+section#conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 #imagem {
     display: flex;
     justify-content: center;
