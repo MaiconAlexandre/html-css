@@ -44,10 +44,9 @@ main {
     margin: auto;
     margin-top: 10px;
     
-    width: 100vw;
+    width: 90vw;
     height: 70vh;
     padding: 15px;
-
 }
 
 main h2 {
@@ -187,28 +186,6 @@ li {
     float:left;               
     width:50%;                 
   }
-   
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
