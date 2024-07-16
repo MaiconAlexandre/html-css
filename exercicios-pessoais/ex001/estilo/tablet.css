@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 599px) and (max-width: 960px){
+
+body {
+    background-color: white;
+    background-image: url(img/fundo.jpeg);
+    background-repeat: no-repeat;
+    
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 60vw;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.fbtn {
+
+}
+
+
+
+
+
+
+    
+}
