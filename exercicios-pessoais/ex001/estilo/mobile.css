@@ -2,10 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+@media screen and (max-width: 600px){
+
 
 * {
     margin: 0px;
     padding: 0px;
+}
+
+:root {
+    --var1: "Anton", sans-serif;
+    --var2:"Oswald", sans-serif;
 }
 
 body {
@@ -17,44 +29,57 @@ body {
 header {
     color: red;
     height: 5vh;
-    padding: 20px;
+    padding: 10px;
+    
 }
 
 header h1 {
-    font-family: "Noto Sans JP", sans-serif;;
+    font-family: var(--var2);
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 
 main {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     
-    height: 50vh;
+    width: 100vw;
+    height: 70vh;
     padding: 15px;
+
 }
 
 main h2 {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .fbtn {
-    width: 430px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
     margin-bottom: 10px;
 
     background-color: #0F0F0F;
+    color: white;
 }
 
 #flog {
-
-    width: 450px;
+    width: 88vw;
     height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 
-    border-radius: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
     text-align: center;
-    background-color: orange;
+    background-color: red;
 }
 
 #log {
@@ -65,6 +90,127 @@ main h2 {
 
     color: white;
     background-color: rgba(240, 248, 255, 0);
+}
+
+#pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 88vw;
+    height: 50px;
+
+
+    border-radius: 5px;
+    background-color: #272727;
+}
+
+#alternativa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93vw;
+}
+
+
+#pin a {
+    text-decoration: none;
+    color: white;
+}
+
+#recupsenha {
+    width: 95vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+#recupsenha a {
+    text-decoration: none;
+    color: white;
+}
+
+#inscri {
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    font-size: large;
+    color: gray;
+}
+
+#inscri a {
+    color: white;
+    text-decoration: none;
+}
+
+#secure {
+    width: 90vw;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 100px;
+}
+
+#secure a {
+    text-decoration: none;
+    color: #0071C5;
+}
+
+article {
+    margin-left: -15px;
+    border-top: 1px solid white;
+    font-size: 13px;
+}
+
+article h2 {
+    color: gray;
+    padding: 20px;
+}
+
+article a {
+    color: gray;
+}
+
+li {
+    display:block;            
+    list-style-type: none; 
+    margin-left: 20px;   
+    margin-bottom: 45px;                
+    box-sizing: border-box;    
+    height:25%;   
+    text-align: start;            
+  }
+  
+  li:nth-child(odd) {          
+    clear:both;                
+    float:left;               
+    width:50%;                 
+  }
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
