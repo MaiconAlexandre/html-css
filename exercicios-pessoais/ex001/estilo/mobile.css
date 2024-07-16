@@ -79,6 +79,10 @@ main h2 {
     background-color: red;
 }
 
+#log:hover {
+    text-shadow: 1px 0px 0px white;
+}
+
 #log {
     margin-top: 15px;
     border: 0px;
@@ -87,6 +91,10 @@ main h2 {
 
     color: white;
     background-color: rgba(240, 248, 255, 0);
+}
+
+#pin:hover {
+    text-shadow: 1px 0px 0px white;
 }
 
 #pin {
